@@ -114,7 +114,7 @@ class NasaAPI : AppCompatActivity() {
         // and to get the correct response format.
         var base_url = "https://api.nasa.gov/planetary/apod"
         var url = base_url +
-                "?thumbs=true&api_key=${BuildConfig.NASA_API_KEY}"
+                "?thumbs=true&api_key=OiwKdUTAf2nFZ9CgH6q7tZs7NmG0wGDYFTvZvh9i"
         // If there is count, try to convert, if worked, add count.
         if (countEditText.text.isNotEmpty()) {
             var count = countEditText.text.toString().toIntOrNull()
