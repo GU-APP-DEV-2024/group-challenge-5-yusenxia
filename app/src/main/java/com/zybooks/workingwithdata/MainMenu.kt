@@ -29,5 +29,10 @@ class MainMenu : AppCompatActivity() {
             var intent = Intent(this, NasaAPI::class.java)
             startActivity(intent)
         }
+        val dataDisplayButton: Button = findViewById(R.id.openDataDisplayButton)
+        dataDisplayButton.setOnClickListener {
+            val intent = Intent(this, DataDisplayActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
